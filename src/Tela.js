@@ -1,5 +1,6 @@
 import './Tela.css';
 import { useState } from 'react'
+import NomeAluno from './NomeAluno'
   
 function Tela() {
   const [ Nome, setNome ] = useState()
@@ -24,6 +25,7 @@ function Tela() {
         </div>
         <div class="caixa-central">
           <p class="texto-caixa-central">{ Nome } <br></br> { Celular }</p>
+          <NomeAluno></NomeAluno>
         </div>
       </header>
     </div>
